@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Carre";
+    src: url('Carre-G6Vq.otf');
+}
+@font-face {
+    font-family: "MountainKing";
+    src: url('MountainKingRegular-woBYn.ttf');
+}
+#outerbox{
+    width:750px;
+    height:750px;
+    background-color: #bc6c25;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.mainCont {
+    width:700px;
+    height:700px;
+    background-color: #dda15e;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rollednum{
+    font-size: 150px;
+    font-family: 'Carre';
+    color:white;
+    text-shadow: 0 0 7px black;
+    margin:0 0 60px 0;
+}
+
+#roll{
+    font-size: 40px;
+    padding: 10px 30px;
+    font-family: 'MountainKing';
+    border: 6px solid #606c38;
+    border-radius: 5px;
+    background-color: #283618;
+    color:#fefae0;
+}
